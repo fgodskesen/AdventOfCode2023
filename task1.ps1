@@ -16,3 +16,4 @@ foreach ($line in $data) {
     $totalSum += $thisNumber
 }
 Write-Host "Final number : $totalSum"
+# final answer: 54597
