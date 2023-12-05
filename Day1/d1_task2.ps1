@@ -1,5 +1,5 @@
 # get all lines in input
-$data = Get-Content $PSScriptRoot\input.txt
+$data = Get-Content $PSScriptRoot\d1_input.txt
 
 
 $totalSum = 0
