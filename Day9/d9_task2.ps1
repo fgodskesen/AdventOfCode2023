@@ -30,6 +30,9 @@ foreach ($obj in $dataSequences) {
     # Add a 0 to last line
     $obj.$currentLine += 0
 
+    # fair enough, given the instructions, the element we insert should be the first one, 
+    # but lets just continue adding at the end of the array,keeping in mind that the 'previous'
+    # projection is now not in first element, but in the last.
     while ($currentLine -gt 1) {
         $currentLine--
         $obj.$currentLine += $obj.$currentLine[0] - $obj.$($currentLine + 1)[-1]
