@@ -407,4 +407,4 @@ for ($r = 1; $r -lt $rows; $r++) {
 PrintCells2 ([ref]$allCells) $rows $cols
 
 $allCells.Values | Where-Object { $_.IsEnclosed } | Measure-Object
-# final answer 579
+# final answer 579 
